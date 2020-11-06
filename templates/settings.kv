@@ -1,0 +1,59 @@
+BoxLayout:
+    width: 200
+    size_hint_x: None
+    canvas.before:
+        Color:
+            rgba: 0.3, 0.3, 0.3, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    BoxLayout:
+        orientation: "vertical"
+        Label:
+            text: "Control"
+            size_hint_y: None
+            height: 50
+        ScrollView:
+            BoxLayout:
+                padding: 5, 0
+                size_hint_y: None
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                Button:
+                    id: start_mode_1
+                    text: "Start mode 1"
+                    size_hint_y: None
+                    height: 40
+                Button:
+                    id: start_mode_2
+                    text: "Start mode 1"
+                    size_hint_y: None
+                    height: 40
+                Label:
+                    text: "x resolution"
+                    size_hint_y: None
+                    height: 50
+                TextInput:
+                    id: x
+                    text: "5760"
+                    size_hint_y: None
+                    height: 40
+                Label:
+                    text: "y resolution"
+                    size_hint_y: None
+                    height: 50
+                TextInput:
+                    id: y
+                    text: "1080"
+                    size_hint_y: None
+                    height: 40
+                Label:
+                    text: "Screenshot"
+                    size_hint_y: None
+                    height: 50
+                Button:
+                    id: screenshot
+                    text: "Take screenshot"
+                    size_hint_y: None
+                    height: 40
