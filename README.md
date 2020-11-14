@@ -15,8 +15,8 @@
 `recorder.py` - скрипт для захвата кликов
 
 ## Фото
-app.py
+app2.py
 ![app](https://github.com/TonyHikas/heatmap/blob/main/imgs/img1.png)
 
-app2.py
+app.py
 ![app2](https://github.com/TonyHikas/heatmap/blob/main/imgs/img2.png)
